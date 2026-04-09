@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Riko Ardiansyah</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            width: 350px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .header-bg {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            height: 100px;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-top: -60px;
+            object-fit: cover;
+            background-color: #eee;
+        }
+        .content {
+            padding: 20px;
+        }
+        h1 {
+            margin: 10px 0 5px;
+            font-size: 24px;
+            color: #333;
+        }
+        .class-info {
+            color: #7f8c8d;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .details {
+            text-align: left;
+            padding: 0 20px 20px;
+        }
+        .detail-item {
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+        .detail-item strong {
+            color: #2c3e50;
+            display: block;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 15px;
+            font-size: 12px;
+            color: #95a5a6;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="header-bg"></div>
+        
+        <img src="riko.jpg" alt="Foto Riko Ardiansyah" class="profile-img">
+
+        <div class="content">
+            <h1>Riko Ardiansyah</h1>
+            <p class="class-info">Kelas 12 TJKT 2</p>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <strong>Sekolah:</strong>
+                    SMK KOMPUTAMA Majenang
+                </div>
+                <div class="detail-item">
+                    <strong>Hobi:</strong>
+                    Olahraga
+                </div>
+                <div class="detail-item">
+                    <strong>Cita-cita:</strong>
+                    Bos Peternak 🐄🐐
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2024 Profil Pelajar TJKT
+        </div>
+    </div>
+
+</body>
+</html>
